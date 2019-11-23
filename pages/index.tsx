@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default () => {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>About Me</title>
       </Head>
@@ -21,6 +21,6 @@ export default () => {
         I was born 26th of May 2015 close to Hradec Kralove. Now, I live in
         Prague with my best owners Ondrej and Zuzka.
       </p>
-    </div>
+    </>
   );
 };
