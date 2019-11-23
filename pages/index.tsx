@@ -1,15 +1,24 @@
-import Hello from "../components/Hello";
+import Head from "next/head";
+
 export default () => {
   return (
-    <div>
-      <Hello name ="Zuz"/>
+    <>
+      <Head>
+        <title>About Me</title>
+      </Head>
       <p>
-        The Reactgirls Workshop is a friendly and supportive environment for you
-        to develop your tech skills. We passionately empower girls and women in
-        their coding journey by offering this cool, 1-day, free workshop for
-        members of all ages and skills.
+        Ahoy, I'm Nela,
+        <br />
+        I'm half labrador half swiss shepard.
       </p>
-      <Hello name ="Bara"/>
-    </div>
+      <p>
+        I love watter (anytime, anywhere, dirty is better than clean), mud,
+        mountines and play fetch.
+      </p>
+      <p>
+        I was born 26th of May 2015 close to Hradec Kralove. Now, I live in
+        Prague with my best owners Ondrej and Zuzka.
+      </p>
+    </>
   );
 };
