@@ -1,0 +1,9 @@
+{
+  "name": "rg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/franozuz/ReactGirls.git",
+  "author": "Zuzana Franova <franova.z@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
