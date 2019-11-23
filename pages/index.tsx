@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Nav from "../components/Nav";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export default () => {
@@ -10,8 +8,7 @@ export default () => {
       <Head>
         <title>About Me</title>
       </Head>
-      <Nav/>
-      <p>
+            <p>
         Ahoy, I'm Nela,
         <br />
         I'm half labrador half swiss shepard.
